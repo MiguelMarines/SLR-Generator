@@ -1,0 +1,12 @@
+8 3
+E -> T EPrime
+EPrime -> + T EPrime
+EPrime -> ' '
+T -> F TPrime
+TPrime -> * F TPrime
+TPrime -> ' '
+F -> ( E )
+F -> id
+id + id * id
+id * id + (id * id + id)
+id +

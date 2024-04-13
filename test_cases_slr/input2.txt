@@ -1,0 +1,10 @@
+6 3
+E -> E + T
+E -> T
+T -> T * F
+T -> F
+F -> id
+F -> ( E )
+id + id * id
+id * id + (id * id + id)
+id +
